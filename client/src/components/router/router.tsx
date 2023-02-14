@@ -13,7 +13,7 @@ const Router: React.FC = () => {
                 <Route index element = {<Home/>}/>
                 <Route path="confession" element={<Confession/>}/>
                 <Route path="misdemeanour" element={<Misdemeanour/>}/>
-                <Route path="NotFound" element={<NotFound/>}/>
+                <Route path="*" element={<NotFound/>}/>
             </Route>
         </Routes>
     );
