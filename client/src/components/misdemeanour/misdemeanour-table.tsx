@@ -39,6 +39,7 @@ export const MisdemeanourTable: React.FC = () => {
                             <td className='misdemeanours__cell'>{misdemeanour.citizenId}</td>
                             <td className="misdemeanours__cell">{misdemeanour.date}</td>
                             <td className="misdemeanours__cell">{misdemeanourMap.get(misdemeanour.misdemeanour)}</td>
+                            <td className="misdemeanours__cell--image"><img src='https://picsum.photos/50/50' /></td>
                         </tr>
                     ))}
                 </tbody>
