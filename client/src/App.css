@@ -147,6 +147,12 @@ body {
   display: block;
   align-items: flex-end;
 }
+.confession__reason {
+  margin: 1rem;
+  display: block;
+  align-items: flex-end;
+}
+
 
 .confession__form--input {
   margin: 1rem;
