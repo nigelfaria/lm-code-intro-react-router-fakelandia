@@ -168,6 +168,9 @@ body {
 
 }
 
+.confession__form--confess{
+  background-color: var(--primary-color);
+}
 
 .footer {
   width: 100%;
